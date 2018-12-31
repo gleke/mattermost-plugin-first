@@ -1,0 +1,6 @@
+{
+    "id": "org.kaakaa.mattermost-plugin-first",
+    "name": "Mattermost Plugin Sample",
+    "description": "このプラグインはQiita記事用のMattermostプラグインです。",
+    "version": "0.0.1"
+}
