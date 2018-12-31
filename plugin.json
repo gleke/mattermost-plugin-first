@@ -2,5 +2,13 @@
     "id": "org.kaakaa.mattermost-plugin-first",
     "name": "Mattermost Plugin Sample",
     "description": "このプラグインはQiita記事用のMattermostプラグインです。",
-    "version": "0.0.1"
+    "version": "0.0.2",
+    "server": {
+        "executables": {
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "darwin-amd64": "server/dist/plugin-darwin-amd64",
+            "windows-amd64": "server/dist/plugin-windows-amd64.exe"
+        },
+        "executable": ""
+    }
 }
